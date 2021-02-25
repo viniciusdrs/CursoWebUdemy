@@ -14,4 +14,4 @@ console.log(times.has('Rockets'))
 
 const nomes = ['Vinicius', 'Hoje', 'Amanhã', 'Hoje']
 const nomesSet = new Set(nomes)
-console.log(nomesSet)
+console.log(nomesSet)aaa
