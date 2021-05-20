@@ -1,0 +1,68 @@
+<table>
+    <caption>Produtos</caption>
+    <!-- thead = table head - cabeçalho da tabela -->
+    <thead>
+        <!-- tr = table row - linha da tabela -->
+        <tr>
+            <!-- th = table head - igual ao "td" so que para o cabeçalho -->
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Quantidade</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <!-- tbody = table body - corpo da tabela -->
+    <tbody>
+        <tr>
+            <!-- td = table data - representa uma célula da tabela -->
+            <td>IPad</td>
+            <td>3289,00</td>
+            <td>5</td>
+            <td>16445,00</td>
+        </tr>
+        <tr>
+            <td>Samsung S9</td>
+            <td>2649,00</td>
+            <td>8</td>
+            <td>21192,00</td>
+        </tr>
+    </tbody>
+    <!-- tfoot = table foot - rodapé da tabela -->
+    <tfoot>
+        <tr>
+             <!-- colspan - número de colunas que a célula ira ocupar 
+                  rowspan - número de linhas que a célula ira ocupar -->
+            <td colspan="3">Total</td>
+            <td>37637,00</td>
+        </tr>
+    </tfoot>
+</table>
+
+<style>
+    /* estilo da tabela */
+    table {
+        border-collapse: collapse;
+    }
+
+    /* espaçamento do th e td */
+    th, td {
+        padding: 10px;
+    }
+
+    /* estilo do tr dentro do thead */
+    thead tr {
+        border-bottom: solid 3px #444;
+    }
+
+    /* estilo do tr dentro do tbody */
+    tbody tr:hover {
+        background-color: #dedede;
+    }
+
+    /* estilo do rodapé */
+    tfoot {
+        background-color: #444;
+        color: #fff;
+        font-weight: bold;
+    }
+</style>
