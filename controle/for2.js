@@ -6,7 +6,7 @@ for (let i in notas) {
 
 const pessoa = {
     nome: 'Vinicius',
-    sobrenome: 'Soares',
+    sobrenome: 'dos Reis Soares',
     idade: 20
 }
 
