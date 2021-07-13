@@ -4,7 +4,7 @@ function gerarNumerosEntre(min, max, numerosProibidos) {
         const fator = max - min + 1
         const aleatorio = parseInt(Math.random() * fator) + min
         if (numerosProibidos.includes(aleatorio)) {
-            reject('Número repetido!')
+            reject('Número repetido!!!')
         } else {
             resolve(aleatorio)
         }

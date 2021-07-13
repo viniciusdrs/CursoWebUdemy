@@ -5,7 +5,7 @@ function esperarPor(tempo = 2000) {
 }
 
 // esperarPor()
-//     .then(() => console.log('Executando promise1...'))
+//     .then(() => console.log('Executando promise1..'))
 //     .then(esperarPor)
 //     .then(() => console.log('Executando promise2...'))
 //     .then(esperarPor)
