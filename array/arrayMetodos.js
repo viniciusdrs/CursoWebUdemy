@@ -5,7 +5,7 @@ console.log(pilotos)
 pilotos.push('Verstappen') // Adiciona um novo elemento no ultimo indice do array
 console.log(pilotos)
 
-pilotos.shift() // Remove o primeiro elemento do array
+pilotos.shift() // Remove o primeiro elemento de um array
 console.log(pilotos)
 
 pilotos.unshift('Hamilton') // Adiciona um novo elemento no primeiro indice do array
