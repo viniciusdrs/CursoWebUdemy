@@ -12,16 +12,16 @@ pilotos.unshift('Hamilton') // Adiciona um novo elemento no primeiro indice do a
 console.log(pilotos)
 
 //adicionar
-pilotos.splice(2, 0, 'Bottas', 'Massa') // Ira adicionar no indice 2 ('Bottas' e 'Massa')
+pilotos.splice(2, 0, 'Bottas', 'Massa')// Ira adicionar no indice 2 ('Bottas' e 'Massa')
 console.log(pilotos)
 
 //remover
-pilotos.splice(3, 1) // Ira remover o 1 elemento do indice 3
+pilotos.splice(3, 1)// Ira remover o 1 elemto do indice 3
 console.log(pilotos)
 
 const algunsPilotos1 = pilotos.slice(2) // Cria um novo array da partir do indice selecionado
 console.log(algunsPilotos1)
 
-// Cria um novo array da partir do indice selecionado porem o ultimo indice que voce selecionou não ira entrar
+// Cria um novo array da partir do indice selecionado porem o ultimo indice que voce selecionou não onra entrar
 const algunsPilotos2 = pilotos.slice(1, 4)
 console.log(algunsPilotos2)
