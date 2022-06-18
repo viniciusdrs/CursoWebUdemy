@@ -5,13 +5,10 @@ for (let i in notas) {
 } 
 
 const pessoa = {
-<<<<<<< HEAD
     nome: 'Vinicius',
     sobrenome: 'dos Reis Soares',
-=======
     nome : 'Vinicius',
     sobrenome : 'Soares',
->>>>>>> parent of d8cef67 (novo)
     idade: 20
 }
 
